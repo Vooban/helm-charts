@@ -3,9 +3,9 @@ entries:
   letsencrypt-issuers:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-04-01T14:06:07.729137239Z
+    created: 2019-04-01T14:07:01.140472406Z
     description: A Helm to deploy LetsEncrypt ClusterIssuers for production and staging
-    digest: 653703948b5ebc8a682735caeba980f29ada646f5e79a908e17a6fa0815024e7
+    digest: 32c1bf72ad0cf84c3afb18567bb842032febd27904a2835e6ea67b8f4ee6e2db
     name: letsencrypt-issuers
     urls:
     - letsencrypt-issuers-1.0.1.tgz
@@ -13,12 +13,12 @@ entries:
   tls-ingress:
   - apiVersion: v1
     appVersion: "2.0"
-    created: 2019-04-01T14:06:07.729323414Z
+    created: 2019-04-01T14:07:01.141845282Z
     description: This chart deploys an ingress that requests https certificates and
       routes traffic
-    digest: 13987368b8a95170b593d3b3380880e372ae1ae2a104c0d5e658c568647697af
+    digest: baa3cd578305fad4b95fb8d61ade4ffde520374b19c69e9d8e370c953ced778f
     name: tls-ingress
     urls:
     - tls-ingress-2.0.4.tgz
     version: 2.0.4
-generated: 2019-04-01T14:06:07.728828815Z
+generated: 2019-04-01T14:07:01.140117827Z
