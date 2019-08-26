@@ -3,10 +3,10 @@ entries:
   clamav:
   - apiVersion: v1
     appVersion: "1.6"
-    created: 2019-08-26T20:10:51.282815269Z
+    created: 2019-08-26T20:12:44.351952627Z
     description: An Open-Source antivirus engine for detecting trojans, viruses, malware
       & other malicious threats.
-    digest: df1d61dfe7294fb810cb7884a0ac4a6aff5dc417d9c2f5f90612009efebbd076
+    digest: bd866e5c18cdf8a9b538cb90b81f8e28bec96866022f5643184be2f40918b7c3
     home: https://www.clamav.net
     icon: https://www.clamav.net/assets/clamav-trademark.png
     maintainers:
@@ -19,16 +19,16 @@ entries:
   letsencrypt-issuers:
   - apiVersion: v1
     appVersion: "2.0"
-    created: 2019-08-26T20:10:51.284084935Z
+    created: 2019-08-26T20:12:44.352839384Z
     description: A Helm to deploy LetsEncrypt ClusterIssuers for production and staging
-    digest: 35952deba6faea26cc8c882107383168d96e44606fe72d956da9eff8aae707b3
+    digest: 2364e36e6d1fba3d57ab2d08fbd501fa5fba4ba6ea0afa592107305d9f242163
     name: letsencrypt-issuers
     urls:
     - letsencrypt-issuers-2.0.1.tgz
     version: 2.0.1
   - apiVersion: v1
     appVersion: "2.0"
-    created: 2019-08-26T20:10:51.283792983Z
+    created: 2019-08-26T20:12:44.352253428Z
     description: A Helm to deploy LetsEncrypt ClusterIssuers for production and staging
     digest: e02afc226b54a701e820198895d5be8bbf270a21b012a61c8265bd14a8d2b131
     name: letsencrypt-issuers
@@ -37,7 +37,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-08-26T20:10:51.283396627Z
+    created: 2019-08-26T20:12:44.352110499Z
     description: A Helm to deploy LetsEncrypt ClusterIssuers for production and staging
     digest: 55f90d4b37b2eca7094dd0f90d7e989268d0315bfe43286c63973aba6254e98f
     name: letsencrypt-issuers
@@ -47,7 +47,17 @@ entries:
   tls-ingress:
   - apiVersion: v1
     appVersion: "2.1"
-    created: 2019-08-26T20:10:51.2847434Z
+    created: 2019-08-26T20:12:44.35401538Z
+    description: This chart deploys an ingress that requests https certificates and
+      routes traffic
+    digest: 48d0c5b2a0c34414046d6d5d5103afac48a9460fbd58d0fd10b1d370caa415ef
+    name: tls-ingress
+    urls:
+    - tls-ingress-2.1.1.tgz
+    version: 2.1.1
+  - apiVersion: v1
+    appVersion: "2.1"
+    created: 2019-08-26T20:12:44.353683582Z
     description: This chart deploys an ingress that requests https certificates and
       routes traffic
     digest: b98fb0341b3ca168f6d6b4a3597522c3351e0381ac8dfb9533e55e70b963e777
@@ -57,7 +67,7 @@ entries:
     version: 2.1.0
   - apiVersion: v1
     appVersion: "2.0"
-    created: 2019-08-26T20:10:51.284429567Z
+    created: 2019-08-26T20:12:44.353251121Z
     description: This chart deploys an ingress that requests https certificates and
       routes traffic
     digest: baa3cd578305fad4b95fb8d61ade4ffde520374b19c69e9d8e370c953ced778f
@@ -65,4 +75,4 @@ entries:
     urls:
     - tls-ingress-2.0.4.tgz
     version: 2.0.4
-generated: 2019-08-26T20:10:51.282282383Z
+generated: 2019-08-26T20:12:44.351407407Z
