@@ -3,10 +3,10 @@ entries:
   clamav:
   - apiVersion: v1
     appVersion: "1.6"
-    created: 2019-07-24T19:27:44.56951874Z
+    created: 2019-08-26T18:45:36.655234348Z
     description: An Open-Source antivirus engine for detecting trojans, viruses, malware
       & other malicious threats.
-    digest: dc43a2760a389652258fa0514c4716896547e2f7a71111555ddc76056e2b20f2
+    digest: 7624d399f4968d7f95bb56513d88d905fb40e2e189e0698c5cb81197ea8bd382
     home: https://www.clamav.net
     icon: https://www.clamav.net/assets/clamav-trademark.png
     maintainers:
@@ -18,8 +18,17 @@ entries:
     version: 1.0.1
   letsencrypt-issuers:
   - apiVersion: v1
+    appVersion: "2.0"
+    created: 2019-08-26T18:45:36.655634583Z
+    description: A Helm to deploy LetsEncrypt ClusterIssuers for production and staging
+    digest: e02afc226b54a701e820198895d5be8bbf270a21b012a61c8265bd14a8d2b131
+    name: letsencrypt-issuers
+    urls:
+    - letsencrypt-issuers-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-07-24T19:27:44.570128452Z
+    created: 2019-08-26T18:45:36.655469465Z
     description: A Helm to deploy LetsEncrypt ClusterIssuers for production and staging
     digest: 55f90d4b37b2eca7094dd0f90d7e989268d0315bfe43286c63973aba6254e98f
     name: letsencrypt-issuers
@@ -29,17 +38,17 @@ entries:
   tls-ingress:
   - apiVersion: v1
     appVersion: "2.1"
-    created: 2019-07-24T19:27:44.570969297Z
+    created: 2019-08-26T18:45:36.656031347Z
     description: This chart deploys an ingress that requests https certificates and
       routes traffic
-    digest: 8d88ed0c9efe120a9ac5c254cffd8faee57bd0ea68bcfac189d038998f5ef40f
+    digest: f800fc7eb04fb8a91a1c92cf409e9285219536649e1ead3e3d4ba9277e114ae8
     name: tls-ingress
     urls:
     - tls-ingress-2.1.0.tgz
     version: 2.1.0
   - apiVersion: v1
     appVersion: "2.0"
-    created: 2019-07-24T19:27:44.570593442Z
+    created: 2019-08-26T18:45:36.655837171Z
     description: This chart deploys an ingress that requests https certificates and
       routes traffic
     digest: baa3cd578305fad4b95fb8d61ade4ffde520374b19c69e9d8e370c953ced778f
@@ -47,4 +56,4 @@ entries:
     urls:
     - tls-ingress-2.0.4.tgz
     version: 2.0.4
-generated: 2019-07-24T19:27:44.568947802Z
+generated: 2019-08-26T18:45:36.654664576Z
