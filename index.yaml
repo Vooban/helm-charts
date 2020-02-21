@@ -3,10 +3,10 @@ entries:
   clamav:
   - apiVersion: v1
     appVersion: "1.6"
-    created: 2020-01-10T15:29:22.156549731Z
+    created: 2020-02-21T14:17:40.351502632Z
     description: An Open-Source antivirus engine for detecting trojans, viruses, malware
       & other malicious threats.
-    digest: 9171bbe22ead516a6e183297d0610dd0cb4106a1bd5c9b9b4906fb5332d61349
+    digest: 23b7974ffce2a8414acda8873ec9f394ecea22326dc709daea464db72b8def47
     home: https://www.clamav.net
     icon: https://www.clamav.net/assets/clamav-trademark.png
     maintainers:
@@ -19,16 +19,16 @@ entries:
   letsencrypt-issuers:
   - apiVersion: v1
     appVersion: "2.1"
-    created: 2020-01-10T15:29:22.157018929Z
+    created: 2020-02-21T14:17:40.352089105Z
     description: A Helm to deploy LetsEncrypt ClusterIssuers for production and staging
-    digest: b2f82375410c6382e9a1316865b399be79b198f75031701cfe4d03b6b8d7e7ae
+    digest: b7a9082d3e259331ab0611fac5f11f5c600b33611d1d01055da7c32a97d6df19
     name: letsencrypt-issuers
     urls:
     - letsencrypt-issuers-2.1.0.tgz
     version: 2.1.0
   - apiVersion: v1
     appVersion: "2.0"
-    created: 2020-01-10T15:29:22.156910578Z
+    created: 2020-02-21T14:17:40.35196705Z
     description: A Helm to deploy LetsEncrypt ClusterIssuers for production and staging
     digest: fa0d62227f1d32a716cf62474434a834ba2f25f561a94186779fc54b165fe331
     name: letsencrypt-issuers
@@ -37,7 +37,7 @@ entries:
     version: 2.0.1
   - apiVersion: v1
     appVersion: "2.0"
-    created: 2020-01-10T15:29:22.156796802Z
+    created: 2020-02-21T14:17:40.351841414Z
     description: A Helm to deploy LetsEncrypt ClusterIssuers for production and staging
     digest: e02afc226b54a701e820198895d5be8bbf270a21b012a61c8265bd14a8d2b131
     name: letsencrypt-issuers
@@ -46,7 +46,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2020-01-10T15:29:22.156681673Z
+    created: 2020-02-21T14:17:40.351705547Z
     description: A Helm to deploy LetsEncrypt ClusterIssuers for production and staging
     digest: 55f90d4b37b2eca7094dd0f90d7e989268d0315bfe43286c63973aba6254e98f
     name: letsencrypt-issuers
@@ -55,8 +55,18 @@ entries:
     version: 1.0.1
   tls-ingress:
   - apiVersion: v1
+    appVersion: "3.0"
+    created: 2020-02-21T14:17:40.354027525Z
+    description: This chart deploys an ingress that requests https certificates and
+      routes traffic
+    digest: 0655d1697cf52d80bb2ac8e14b6e751500d83653e73b8928bc7497c31e5a9472
+    name: tls-ingress
+    urls:
+    - tls-ingress-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v1
     appVersion: "2.2"
-    created: 2020-01-10T15:29:22.158413316Z
+    created: 2020-02-21T14:17:40.353645073Z
     description: This chart deploys an ingress that requests https certificates and
       routes traffic
     digest: 93262019e3d7e93b53cc3bf8c218cec85ec87f1c96586fd09a2f9724bbbd6b71
@@ -66,7 +76,7 @@ entries:
     version: 2.2.0
   - apiVersion: v1
     appVersion: "2.1"
-    created: 2020-01-10T15:29:22.158117784Z
+    created: 2020-02-21T14:17:40.353259063Z
     description: This chart deploys an ingress that requests https certificates and
       routes traffic
     digest: 29ecfa9d5caf2a35c2df2122831a47274fd223f803e586e222bda9cd84ae4ff9
@@ -76,7 +86,7 @@ entries:
     version: 2.1.1
   - apiVersion: v1
     appVersion: "2.1"
-    created: 2020-01-10T15:29:22.157826439Z
+    created: 2020-02-21T14:17:40.352749278Z
     description: This chart deploys an ingress that requests https certificates and
       routes traffic
     digest: b98fb0341b3ca168f6d6b4a3597522c3351e0381ac8dfb9533e55e70b963e777
@@ -86,7 +96,7 @@ entries:
     version: 2.1.0
   - apiVersion: v1
     appVersion: "2.0"
-    created: 2020-01-10T15:29:22.157158598Z
+    created: 2020-02-21T14:17:40.352305542Z
     description: This chart deploys an ingress that requests https certificates and
       routes traffic
     digest: baa3cd578305fad4b95fb8d61ade4ffde520374b19c69e9d8e370c953ced778f
@@ -94,4 +104,4 @@ entries:
     urls:
     - tls-ingress-2.0.4.tgz
     version: 2.0.4
-generated: 2020-01-10T15:29:22.156012941Z
+generated: 2020-02-21T14:17:40.350834459Z
