@@ -1,152 +1,170 @@
 apiVersion: v1
 entries:
   clamav:
-  - apiVersion: v1
-    appVersion: "1.6"
-    created: "2022-07-28T13:29:02.604444-04:00"
-    description: An Open-Source antivirus engine for detecting trojans, viruses, malware
-      & other malicious threats.
-    digest: 796b41cfb4b3bc2df6fac89801b3ccad66691fd9f46a00e2fb30e81b07575afe
-    home: https://www.clamav.net
-    icon: https://www.clamav.net/assets/clamav-trademark.png
-    maintainers:
-    - email: zakkg3@gmail.com
-      name: zakkg3
-    name: clamav
-    urls:
-    - clamav-1.0.2.tgz
-    version: 1.0.2
-  - apiVersion: v1
-    appVersion: "1.6"
-    created: "2022-07-28T13:29:02.603985-04:00"
-    description: An Open-Source antivirus engine for detecting trojans, viruses, malware
-      & other malicious threats.
-    digest: cbeee5ddb603dc71a111c784130dc432fbb5450cb7d3486a5e9e2c0a79108809
-    home: https://www.clamav.net
-    icon: https://www.clamav.net/assets/clamav-trademark.png
-    maintainers:
-    - email: zakkg3@gmail.com
-      name: zakkg3
-    name: clamav
-    urls:
-    - clamav-1.0.1.tgz
-    version: 1.0.1
+    - apiVersion: v1
+      appVersion: "1.6"
+      created: "2022-07-28T13:29:02.604444-04:00"
+      description:
+        An Open-Source antivirus engine for detecting trojans, viruses, malware
+        & other malicious threats.
+      digest: 796b41cfb4b3bc2df6fac89801b3ccad66691fd9f46a00e2fb30e81b07575afe
+      home: https://www.clamav.net
+      icon: https://www.clamav.net/assets/clamav-trademark.png
+      maintainers:
+        - email: zakkg3@gmail.com
+          name: zakkg3
+      name: clamav
+      urls:
+        - clamav-1.0.2.tgz
+      version: 1.0.2
+    - apiVersion: v1
+      appVersion: "1.6"
+      created: "2022-07-28T13:29:02.603985-04:00"
+      description:
+        An Open-Source antivirus engine for detecting trojans, viruses, malware
+        & other malicious threats.
+      digest: cbeee5ddb603dc71a111c784130dc432fbb5450cb7d3486a5e9e2c0a79108809
+      home: https://www.clamav.net
+      icon: https://www.clamav.net/assets/clamav-trademark.png
+      maintainers:
+        - email: zakkg3@gmail.com
+          name: zakkg3
+      name: clamav
+      urls:
+        - clamav-1.0.1.tgz
+      version: 1.0.1
   letsencrypt-issuers:
-  - apiVersion: v1
-    appVersion: "2.1"
-    created: "2022-07-28T13:29:02.605236-04:00"
-    description: A Helm to deploy LetsEncrypt ClusterIssuers for production and staging
-    digest: feb5886fcdcf3c3a482735d6effc5045dbd7147446182313dccfa7d500512350
-    name: letsencrypt-issuers
-    urls:
-    - letsencrypt-issuers-2.1.0.tgz
-    version: 2.1.0
-  - apiVersion: v1
-    appVersion: "2.0"
-    created: "2022-07-28T13:29:02.605053-04:00"
-    description: A Helm to deploy LetsEncrypt ClusterIssuers for production and staging
-    digest: fa0d62227f1d32a716cf62474434a834ba2f25f561a94186779fc54b165fe331
-    name: letsencrypt-issuers
-    urls:
-    - letsencrypt-issuers-2.0.1.tgz
-    version: 2.0.1
-  - apiVersion: v1
-    appVersion: "2.0"
-    created: "2022-07-28T13:29:02.604857-04:00"
-    description: A Helm to deploy LetsEncrypt ClusterIssuers for production and staging
-    digest: e02afc226b54a701e820198895d5be8bbf270a21b012a61c8265bd14a8d2b131
-    name: letsencrypt-issuers
-    urls:
-    - letsencrypt-issuers-2.0.0.tgz
-    version: 2.0.0
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2022-07-28T13:29:02.60466-04:00"
-    description: A Helm to deploy LetsEncrypt ClusterIssuers for production and staging
-    digest: 55f90d4b37b2eca7094dd0f90d7e989268d0315bfe43286c63973aba6254e98f
-    name: letsencrypt-issuers
-    urls:
-    - letsencrypt-issuers-1.0.1.tgz
-    version: 1.0.1
+    - apiVersion: v2
+      appVersion: "2.1"
+      created: "2022-07-27T17:39:40.887475-04:00"
+      description: A Helm to deploy LetsEncrypt ClusterIssuers for production and staging
+      digest: 5c4b8a046dd93bafd26e34ac07e09a4f2f2e3fa361f5c8b93213b8a15ff394c6
+      name: letsencrypt-issuers
+      urls:
+        - letsencrypt-issuers-3.0.0.tgz
+      version: 3.0.0
+    - apiVersion: v1
+      appVersion: "2.1"
+      created: "2022-07-28T13:29:02.605236-04:00"
+      description: A Helm to deploy LetsEncrypt ClusterIssuers for production and staging
+      digest: feb5886fcdcf3c3a482735d6effc5045dbd7147446182313dccfa7d500512350
+      name: letsencrypt-issuers
+      urls:
+        - letsencrypt-issuers-2.1.0.tgz
+      version: 2.1.0
+    - apiVersion: v1
+      appVersion: "2.0"
+      created: "2022-07-28T13:29:02.605053-04:00"
+      description: A Helm to deploy LetsEncrypt ClusterIssuers for production and staging
+      digest: fa0d62227f1d32a716cf62474434a834ba2f25f561a94186779fc54b165fe331
+      name: letsencrypt-issuers
+      urls:
+        - letsencrypt-issuers-2.0.1.tgz
+      version: 2.0.1
+    - apiVersion: v1
+      appVersion: "2.0"
+      created: "2022-07-28T13:29:02.604857-04:00"
+      description: A Helm to deploy LetsEncrypt ClusterIssuers for production and staging
+      digest: e02afc226b54a701e820198895d5be8bbf270a21b012a61c8265bd14a8d2b131
+      name: letsencrypt-issuers
+      urls:
+        - letsencrypt-issuers-2.0.0.tgz
+      version: 2.0.0
+    - apiVersion: v1
+      appVersion: "1.0"
+      created: "2022-07-28T13:29:02.60466-04:00"
+      description: A Helm to deploy LetsEncrypt ClusterIssuers for production and staging
+      digest: 55f90d4b37b2eca7094dd0f90d7e989268d0315bfe43286c63973aba6254e98f
+      name: letsencrypt-issuers
+      urls:
+        - letsencrypt-issuers-1.0.1.tgz
+      version: 1.0.1
   maildev:
-  - apiVersion: v2
-    appVersion: 2.0.0-beta3
-    created: "2022-07-28T13:29:02.605608-04:00"
-    description: A Helm chart for Kubernetes
-    digest: 824ea4aac7030c2684be037eea03ef3e3c30ebef08b7cc3cda9749b3af390cb7
-    name: maildev
-    urls:
-    - maildev-0.1.0.tgz
-    version: 0.1.0
+    - apiVersion: v2
+      appVersion: 2.0.0-beta3
+      created: "2022-07-28T13:29:02.605608-04:00"
+      description: A Helm chart for Kubernetes
+      digest: 824ea4aac7030c2684be037eea03ef3e3c30ebef08b7cc3cda9749b3af390cb7
+      name: maildev
+      urls:
+        - maildev-0.1.0.tgz
+      version: 0.1.0
   tls-ingress:
-  - apiVersion: v2
-    appVersion: "3.0"
-    created: "2022-07-28T13:29:02.607068-04:00"
-    description: This chart deploys an ingress that requests https certificates and
-      routes traffic
-    digest: 5ae966a6b8a62e823cc27bc65813c71b5ea73f138d1f59b803a85e159c9e62e7
-    name: tls-ingress
-    urls:
-    - tls-ingress-4.1.0.tgz
-    version: 4.1.0
-  - apiVersion: v1
-    appVersion: "3.0"
-    created: "2022-07-28T13:29:02.606878-04:00"
-    description: This chart deploys an ingress that requests https certificates and
-      routes traffic
-    digest: 4130c6a5fd6db80bd69cb9a55c58d93987e565a08b4e102bf7b06d4599c00417
-    name: tls-ingress
-    urls:
-    - tls-ingress-3.0.1.tgz
-    version: 3.0.1
-  - apiVersion: v1
-    appVersion: "3.0"
-    created: "2022-07-28T13:29:02.606677-04:00"
-    description: This chart deploys an ingress that requests https certificates and
-      routes traffic
-    digest: c6f0d28778d2f9d8786142f623bcda0d77a8311c7d79a7c489e4d95f01ce0539
-    name: tls-ingress
-    urls:
-    - tls-ingress-3.0.0.tgz
-    version: 3.0.0
-  - apiVersion: v1
-    appVersion: "2.2"
-    created: "2022-07-28T13:29:02.606464-04:00"
-    description: This chart deploys an ingress that requests https certificates and
-      routes traffic
-    digest: 93262019e3d7e93b53cc3bf8c218cec85ec87f1c96586fd09a2f9724bbbd6b71
-    name: tls-ingress
-    urls:
-    - tls-ingress-2.2.0.tgz
-    version: 2.2.0
-  - apiVersion: v1
-    appVersion: "2.1"
-    created: "2022-07-28T13:29:02.606264-04:00"
-    description: This chart deploys an ingress that requests https certificates and
-      routes traffic
-    digest: 29ecfa9d5caf2a35c2df2122831a47274fd223f803e586e222bda9cd84ae4ff9
-    name: tls-ingress
-    urls:
-    - tls-ingress-2.1.1.tgz
-    version: 2.1.1
-  - apiVersion: v1
-    appVersion: "2.1"
-    created: "2022-07-28T13:29:02.606052-04:00"
-    description: This chart deploys an ingress that requests https certificates and
-      routes traffic
-    digest: b98fb0341b3ca168f6d6b4a3597522c3351e0381ac8dfb9533e55e70b963e777
-    name: tls-ingress
-    urls:
-    - tls-ingress-2.1.0.tgz
-    version: 2.1.0
-  - apiVersion: v1
-    appVersion: "2.0"
-    created: "2022-07-28T13:29:02.605841-04:00"
-    description: This chart deploys an ingress that requests https certificates and
-      routes traffic
-    digest: baa3cd578305fad4b95fb8d61ade4ffde520374b19c69e9d8e370c953ced778f
-    name: tls-ingress
-    urls:
-    - tls-ingress-2.0.4.tgz
-    version: 2.0.4
+    - apiVersion: v2
+      appVersion: "3.0"
+      created: "2022-07-28T13:29:02.607068-04:00"
+      description:
+        This chart deploys an ingress that requests https certificates and
+        routes traffic
+      digest: 5ae966a6b8a62e823cc27bc65813c71b5ea73f138d1f59b803a85e159c9e62e7
+      name: tls-ingress
+      urls:
+        - tls-ingress-4.1.0.tgz
+      version: 4.1.0
+    - apiVersion: v1
+      appVersion: "3.0"
+      created: "2022-07-28T13:29:02.606878-04:00"
+      description:
+        This chart deploys an ingress that requests https certificates and
+        routes traffic
+      digest: 4130c6a5fd6db80bd69cb9a55c58d93987e565a08b4e102bf7b06d4599c00417
+      name: tls-ingress
+      urls:
+        - tls-ingress-3.0.1.tgz
+      version: 3.0.1
+    - apiVersion: v1
+      appVersion: "3.0"
+      created: "2022-07-28T13:29:02.606677-04:00"
+      description:
+        This chart deploys an ingress that requests https certificates and
+        routes traffic
+      digest: c6f0d28778d2f9d8786142f623bcda0d77a8311c7d79a7c489e4d95f01ce0539
+      name: tls-ingress
+      urls:
+        - tls-ingress-3.0.0.tgz
+      version: 3.0.0
+    - apiVersion: v1
+      appVersion: "2.2"
+      created: "2022-07-28T13:29:02.606464-04:00"
+      description:
+        This chart deploys an ingress that requests https certificates and
+        routes traffic
+      digest: 93262019e3d7e93b53cc3bf8c218cec85ec87f1c96586fd09a2f9724bbbd6b71
+      name: tls-ingress
+      urls:
+        - tls-ingress-2.2.0.tgz
+      version: 2.2.0
+    - apiVersion: v1
+      appVersion: "2.1"
+      created: "2022-07-28T13:29:02.606264-04:00"
+      description:
+        This chart deploys an ingress that requests https certificates and
+        routes traffic
+      digest: 29ecfa9d5caf2a35c2df2122831a47274fd223f803e586e222bda9cd84ae4ff9
+      name: tls-ingress
+      urls:
+        - tls-ingress-2.1.1.tgz
+      version: 2.1.1
+    - apiVersion: v1
+      appVersion: "2.1"
+      created: "2022-07-28T13:29:02.606052-04:00"
+      description:
+        This chart deploys an ingress that requests https certificates and
+        routes traffic
+      digest: b98fb0341b3ca168f6d6b4a3597522c3351e0381ac8dfb9533e55e70b963e777
+      name: tls-ingress
+      urls:
+        - tls-ingress-2.1.0.tgz
+      version: 2.1.0
+    - apiVersion: v1
+      appVersion: "2.0"
+      created: "2022-07-28T13:29:02.605841-04:00"
+      description:
+        This chart deploys an ingress that requests https certificates and
+        routes traffic
+      digest: baa3cd578305fad4b95fb8d61ade4ffde520374b19c69e9d8e370c953ced778f
+      name: tls-ingress
+      urls:
+        - tls-ingress-2.0.4.tgz
+      version: 2.0.4
 generated: "2022-07-28T13:29:02.602992-04:00"
